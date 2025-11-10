@@ -53,9 +53,45 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-h1 {
+/*h1 {
 	font-size: 2em;
 	margin: 0.67em 0;
+}*/
+h1, .h1 {
+	margin-block: calc(var(--spacing) * 0);
+	font-size: 96px;
+	line-height: var(--tw-leading, 105.6px);
+}
+h2, .h2 {
+	margin-block: calc(var(--spacing) * 0);
+	font-size: 48px;
+	line-height: var(--tw-leading, 62.4px);
+}
+h3, .h3 {
+	margin-block: calc(var(--spacing) * 0);
+	font-size: 32px;
+	line-height: var(--tw-leading, 41.6px);
+}
+h4, .h4 {
+	margin-block: calc(var(--spacing) * 0);
+	font-size: 24px;
+	line-height: var(--tw-leading, 31.2px);
+}
+p, .p {
+	margin-top: calc(var(--spacing) * 0);
+	margin-bottom: calc(var(--spacing) * 20);
+	font-size: 20px;
+	line-height: var(--tw-leading, 34px);
+}
+h5, .h5 {
+	margin-block: calc(var(--spacing) * 0);
+	font-size: 18px;
+	line-height: var(--tw-leading, 23.4px);
+}
+h6, .h6 {
+	margin-block: calc(var(--spacing) * 0);
+	font-size: 16px;
+	line-height: var(--tw-leading, 20.8px);
 }
 
 /* Grouping content

@@ -18,6 +18,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 :root {
 	/* Override the default value */
 	--wp--preset--spacing--50: 0;
+	--wp--preset--spacing--30: 0;
 }
 
 /* Normalize

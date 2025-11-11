@@ -40,6 +40,7 @@ html {
  */
 body {
 	margin: 0;
+	font-size: 20px;
 	font-family: var(--font-primary);
 }
 
@@ -58,22 +59,22 @@ main {
 	font-size: 2em;
 	margin: 0.67em 0;
 }*/
-h1, .h1 {
+h1, .h1, h1.elementor-heading-title {
 	margin-block: calc(var(--spacing) * 0);
 	font-size: 96px;
 	line-height: var(--tw-leading, 105.6px);
 }
-h2, .h2 {
+h2, .h2, h2.elementor-heading-title {
 	margin-block: calc(var(--spacing) * 0);
 	font-size: 48px;
 	line-height: var(--tw-leading, 62.4px);
 }
-h3, .h3 {
+h3, .h3, h3.elementor-heading-title {
 	margin-block: calc(var(--spacing) * 0);
 	font-size: 32px;
 	line-height: var(--tw-leading, 41.6px);
 }
-h4, .h4 {
+h4, .h4, h4.elementor-heading-title {
 	margin-block: calc(var(--spacing) * 0);
 	font-size: 24px;
 	line-height: var(--tw-leading, 31.2px);
@@ -84,12 +85,12 @@ p, .p {
 	font-size: 20px;
 	line-height: var(--tw-leading, 34px);
 }
-h5, .h5 {
+h5, .h5, h5.elementor-heading-title {
 	margin-block: calc(var(--spacing) * 0);
 	font-size: 18px;
 	line-height: var(--tw-leading, 23.4px);
 }
-h6, .h6 {
+h6, .h6, h6.elementor-heading-title {
 	margin-block: calc(var(--spacing) * 0);
 	font-size: 16px;
 	line-height: var(--tw-leading, 20.8px);
@@ -401,9 +402,9 @@ select,
 optgroup,
 textarea {
 	color: #404040;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-	font-size: 1rem;
-	line-height: 1.5;
+	/*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;*/
+	/*font-size: 1rem;*/
+	/*line-height: 1.5;*/
 }
 
 h1,

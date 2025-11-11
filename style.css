@@ -17,8 +17,12 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 
 :root {
 	/* Override the default value */
-	--wp--preset--spacing--50: 0;
-	--wp--preset--spacing--30: 0;
+	/*--wp--preset--spacing--50: 0;*/
+	/*--wp--preset--spacing--30: 0;*/
+}
+.wp-block-navigation.items-justified-right {
+	--navigation-layout-justification-setting: flex-start;
+	--navigation-layout-justify: flex-end;
 }
 
 /* Normalize
@@ -542,7 +546,7 @@ a {
 }
 
 a:visited {
-	color: #800080;
+	color: inherit;
 }
 
 a:hover,
@@ -558,6 +562,10 @@ a:focus {
 a:hover,
 a:active {
 	outline: 0;
+}
+
+a, button, input {
+	outline: none;
 }
 
 /* Forms

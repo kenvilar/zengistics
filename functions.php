@@ -15,3 +15,11 @@ if ( ! function_exists( 'zengistics_child_theme_enqueue_styles' ) ) {
 
 	add_action( 'wp_enqueue_scripts', 'zengistics_child_theme_enqueue_styles' );
 }
+
+if ( ! function_exists( 'zengistics_child_allow_svg_uploads' ) ) {
+	function zengistics_child_allow_svg_uploads( $mimes ) {
+		$mimes['svg'] = 'image/svg+xml';
+		return $mimes;
+	}
+	add_filter( 'upload_mimes', 'zengistics_child_allow_svg_uploads' );
+}

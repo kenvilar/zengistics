@@ -15,6 +15,11 @@ Text Domain: zengistics
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 */
 
+:root {
+	/* Override the default value */
+	--wp--preset--spacing--50: 0;
+}
+
 /* Normalize
 --------------------------------------------- */
 
@@ -39,7 +44,7 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-	margin: 0;
+	margin: 0 !important;
 	font-size: 20px;
 	font-family: var(--font-primary);
 }

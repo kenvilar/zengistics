@@ -564,7 +564,7 @@ a:active {
 	outline: 0;
 }
 
-a, button, input {
+a, button, input, textarea {
 	outline: none;
 }
 

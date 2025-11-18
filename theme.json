@@ -210,19 +210,19 @@
                       "fontFamily": "Roboto",
                       "fontStyle": "normal",
                       "fontWeight": "500",
-                      "src": ["file:./assets/fonts/cardo/Roboto-Medium.woff2"]
+                      "src": ["file:./assets/fonts/roboto/Roboto-Medium.woff2"]
                     },
                     {
                       "fontFamily": "Roboto",
                       "fontStyle": "normal",
                       "fontWeight": "600",
-                      "src": ["file:./assets/fonts/cardo/Roboto-SemiBold.woff2"]
+                      "src": ["file:./assets/fonts/roboto/Roboto-SemiBold.woff2"]
                     },
                     {
                       "fontFamily": "Roboto",
                       "fontStyle": "normal",
                       "fontWeight": "700",
-                      "src": ["file:./assets/fonts/cardo/Roboto-Bold.woff2"]
+                      "src": ["file:./assets/fonts/roboto/Roboto-Bold.woff2"]
                     }
                   ],
                   "fontFamily": "\"Roboto\", sans-serif",
